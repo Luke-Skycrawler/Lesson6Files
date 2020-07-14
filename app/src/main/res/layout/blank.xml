@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:text="@string/input_note_here"
+        android:textColor="@android:color/darker_gray"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:id="@+id/Input_text"
+        android:layout_height="0dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_button"
+        android:text="@string/submit" />
+</LinearLayout>
